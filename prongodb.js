@@ -17,7 +17,7 @@
 
 	module.exports = {
 		connect: function(uri, options) {
-			Client.connectAsync(uri, options).then(function(db) {
+			MongoClient.connectAsync(uri, options).then(function(db) {
 				database = db;
 				deferred.resolve(db);
 			}).catch(function(err) {
