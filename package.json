@@ -1,12 +1,12 @@
 {
   "name": "prongodb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple library that promisifies the MongoDB 2.x driver and makes it easy to use a single connection pool.",
   "main": "prongodb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mongodb", "bluebird", "promise", "promisified", "connection pool", "mongo driver"],
+  "keywords": ["mongo", "mongodb", "bluebird", "promise", "promisified", "connection", "pool", "driver"],
   "repository": {
     "type": "git",
     "url": "https://github.com/blakgeek/prongodb"
