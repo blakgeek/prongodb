@@ -1,6 +1,6 @@
 {
   "name": "prongodb",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple library that promisifies the MongoDB 2.x driver and makes it easy to use a single connection pool.",
   "main": "prongodb.js",
   "scripts": {
